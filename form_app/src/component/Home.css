@@ -1,0 +1,487 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main {
+
+    width: 90%;
+    height: 90vh;
+    background-color: whitesmoke;
+    margin: 4rem  auto;
+    border: solid 5px darkgray;
+    border-bottom: solid 4px lightgray;
+    border-left: solid 4px lightgray;
+    border-right: solid 4px lightgray;
+
+
+}
+
+.Title {
+
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1rem;
+
+}
+
+.first {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+   
+    height: 8vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.input-1 {
+
+    display: flex;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.input-11 {
+
+    width: 170%;
+    border-radius: 3px;
+    border: none;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+.input-2 {
+
+    width: 35%;
+
+    display: flex;
+
+}
+
+.input-12 {
+
+    width: 60%;
+    height: 3.5vh;
+    border-radius: 5px;
+   border: 2px solid darkgray;
+   background-color: transparent;
+
+    margin-top: 6px;
+    color: rgb(156, 151, 151);
+    ;
+
+}
+
+.gender {
+
+    width: 18%;
+    height: 5vh;
+   
+
+}
+
+.sex {
+
+    width: 60%;
+    height: 4vh;
+    border-radius: 5px;
+   border: 2px solid darkgray;
+    color: rgb(156, 151, 151);
+    ;
+    margin-top: 5px;
+    background-color: transparent;
+ 
+
+
+}
+
+::placeholder {
+    color: rgb(156, 151, 151);
+}
+
+
+.second {
+
+    width: 95%;
+    display: flex;
+    /* justify-content: space-between; */
+   
+    height: 8vh;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+
+.Mobile {
+
+
+    display: flex;
+    width: 100%;
+    
+}
+
+.input-13 {
+
+    width: 85%;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+.Goveid {
+
+    display: flex;
+    width: 70%;
+    height: 3.5vh;
+
+    
+}
+
+.Idtype {
+
+    width: 70%;
+    border-radius: 3px;
+    color: rgb(156, 151, 151);
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+
+}
+
+.EnterGO {
+
+    width: 90%;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+
+}
+
+.EnterId {
+
+    width: 40%;
+    
+}
+
+
+.THIRD {
+
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+   
+    height: 8vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.EnterLabel {
+
+    width: 40%;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+    height: 3.5vh;
+}
+
+
+.Gove {
+
+    display: flex;
+    width: 40%;
+
+}
+
+.Entergname {
+
+    width: 31%;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+.email {
+
+    width: 30%;
+    height: 3.5vh;
+}
+
+
+.Email {
+
+    width: 70%;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+    
+}
+
+
+.Four-1 {
+
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  
+    height: 8vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Address {
+
+    width: 40%;
+    
+    display: flex;
+}
+
+.address {
+
+    width: 90%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+
+}
+
+.State {
+
+    width: 32%;
+
+    display: flex;
+}
+
+.state-1 {
+
+    width: 90%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+.City {
+    width: 23%;
+   
+    display: flex;
+
+}
+
+.city-1 {
+
+    width: 90%;
+    height: 3vh;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+
+.Four {
+
+    width: 95%;
+    display: flex;
+
+   
+    height: 8vh;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.Country {
+
+    width: 30%;
+    display: flex;
+}
+
+.country-1 {
+
+    width: 80%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+.pincode {
+
+    margin-left: 10rem;
+    width: 30%;
+}
+
+.pincode-1 {
+
+    width: 80%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+
+.fifth {
+    width: 95%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    
+    height: 8vh;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+
+.occupation {
+
+    width: 20%;
+    
+    display: flex;
+}
+
+.ocuupation-1 {
+
+    width: 80%;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+
+.Religon {
+
+    width: 30%;
+    display: flex;
+}
+
+.religion-1 {
+
+    width: 80%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+.Maritial {
+
+    width: 25%;
+    display: flex;
+}
+
+.martial {
+
+    width: 60%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+
+.Blood {
+
+    width: 15%;
+    display: flex;
+
+}
+
+.blood {
+
+    width: 50%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+
+.nation {
+
+    width: 95%;
+    display: flex;
+
+    
+    height: 8vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.nationality {
+
+    width: 20%;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;
+}
+
+.subtin {
+    width: 30%;
+    height: 14vh;
+    float: right;
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem auto;
+    align-items: center;
+
+
+}
+
+.submit {
+
+    width: 40%;
+    height: 8vh;
+
+    background-color: green;
+    color: white;
+    float: right;
+    border-radius: 3px;
+    border: none;
+}
+
+.Cancel {
+
+    width: 40%;
+    height: 8vh;
+    float: right;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 1px solid red;
+    color: red;
+
+}
+
+.Emergency{
+
+    display: flex;
+    width: 30%;
+    height: 3.5vh;
+   
+}
+
+.Enumber{
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background-color: transparent;  
+}
+
+ 

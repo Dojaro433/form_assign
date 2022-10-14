@@ -1,0 +1,38 @@
+.Table{
+
+    width: 60%;
+    height: 5vh;
+    background-color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 1rem 20rem;
+   text-decoration: underline;
+
+ }
+
+
+ table,table th {
+
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 3px 6px;
+    font-size: 0.7rem;
+    background-color: rgb(81, 148, 206);
+    color: white;
+    font-family: sans-serif;
+}
+
+
+table, table td {
+
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 3px 10px;
+    font-size: 0.6rem;
+    background-color: aqua;
+    color: black;
+    font-family: sans-serif;
+}
